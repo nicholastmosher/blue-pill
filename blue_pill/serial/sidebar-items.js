@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Error","An error"]],"struct":[["Serial","Serial interface"]],"trait":[["Usart","IMPLEMENTATION DETAIL"]],"type":[["Result","Specialized `Result` type"]]});

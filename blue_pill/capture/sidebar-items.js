@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Error","Input / capture error"]],"struct":[["Capture","Input capture interface"]]});

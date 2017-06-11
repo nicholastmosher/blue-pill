@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `DEFAULT_HANDLERS` constant in crate `stm32f103xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, DEFAULT_HANDLERS">
+
+    <title>stm32f103xx::interrupt::DEFAULT_HANDLERS - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc constant">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>stm32f103xx</a>::<wbr><a href='index.html'>interrupt</a></p><script>window.sidebarCurrent = {name: 'DEFAULT_HANDLERS', ty: 'constant', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Constant <a href='../index.html'>stm32f103xx</a>::<wbr><a href='index.html'>interrupt</a>::<wbr><a class="constant" href=''>DEFAULT_HANDLERS</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../src/stm32f103xx/lib.rs.html#856-917' title='goto source code'>[src]</a></span></h1>
+<pre class='rust const'>pub const DEFAULT_HANDLERS: <a class="struct" href="../../stm32f103xx/interrupt/struct.Handlers.html" title="struct stm32f103xx::interrupt::Handlers">Handlers</a><code> = </code><code>Handlers{WWDG: exception::default_handler,
+         PVD: exception::default_handler,
+         TAMPER: exception::default_handler,
+         RTC: exception::default_handler,
+         FLASH: exception::default_handler,
+         RCC: exception::default_handler,
+         EXTI0: exception::default_handler,
+         EXTI1: exception::default_handler,
+         EXTI2: exception::default_handler,
+         EXTI3: exception::default_handler,
+         EXTI4: exception::default_handler,
+         DMA1_CHANNEL1: exception::default_handler,
+         DMA1_CHANNEL2: exception::default_handler,
+         DMA1_CHANNEL3: exception::default_handler,
+         DMA1_CHANNEL4: exception::default_handler,
+         DMA1_CHANNEL5: exception::default_handler,
+         DMA1_CHANNEL6: exception::default_handler,
+         DMA1_CHANNEL7: exception::default_handler,
+         ADC: exception::default_handler,
+         CAN1_TX: exception::default_handler,
+         CAN1_RX0: exception::default_handler,
+         CAN1_RX1: exception::default_handler,
+         CAN1_SCE: exception::default_handler,
+         EXTI9_5: exception::default_handler,
+         TIM1_BRK_TIM9: exception::default_handler,
+         TIM1_UP_TIM10: exception::default_handler,
+         TIM1_TRG_COM_TIM11: exception::default_handler,
+         TIM1_CC: exception::default_handler,
+         TIM2: exception::default_handler,
+         TIM3: exception::default_handler,
+         TIM4: exception::default_handler,
+         I2C1_EV: exception::default_handler,
+         I2C1_ER: exception::default_handler,
+         I2C2_EV: exception::default_handler,
+         I2C2_ER: exception::default_handler,
+         SPI1: exception::default_handler,
+         SPI2: exception::default_handler,
+         USART1: exception::default_handler,
+         USART2: exception::default_handler,
+         USART3: exception::default_handler,
+         EXTI15_10: exception::default_handler,
+         RTCALARM: exception::default_handler,
+         USB_FS_WKUP: exception::default_handler,
+         TIM8_BRK_TIM12: exception::default_handler,
+         TIM8_UP_TIM13: exception::default_handler,
+         TIM8_TRG_COM_TIM14: exception::default_handler,
+         TIM8_CC: exception::default_handler,
+         ADC3: exception::default_handler,
+         FSMC: exception::default_handler,
+         SDIO: exception::default_handler,
+         TIM5: exception::default_handler,
+         SPI3: exception::default_handler,
+         UART4: exception::default_handler,
+         UART5: exception::default_handler,
+         TIM6: exception::default_handler,
+         TIM7: exception::default_handler,
+         DMA2_CHANNEL1: exception::default_handler,
+         DMA2_CHANNEL2: exception::default_handler,
+         DMA2_CHANNEL3: exception::default_handler,
+         DMA2_CHANNEL4_5: exception::default_handler,}</code></pre><div class='docblock'><p>Default interrupt handlers</p>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "stm32f103xx";
+    </script>
+    <script src="../../main.js"></script>
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>
